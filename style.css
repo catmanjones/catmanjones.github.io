@@ -1,0 +1,517 @@
+/* Entire Site Start */
+
+body {
+  height: 100vh;
+  font-family: "Helvetica";
+  width: 100%;
+  margin: 0;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto"
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  color: #3F00FF;
+}
+
+a:hover {
+  color: #000080;
+}
+
+label {
+  position: relative;
+}
+
+input[type="text"] {
+  width: 350px;
+  height: 50px;
+  padding: 0px 15px;
+  border-radius: 5px;
+  border: solid;
+}
+
+#email_capture_button {
+  height: 50px;
+  width: 150px;
+  padding: 10px;
+  background-color: #3F00FF;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+#email_capture_button:hover {
+
+  background-color: #000080;
+}
+
+
+/* Entire Site End */
+
+/* Dark Mode */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+#dark_mode_button {
+  background-color: white;
+  height: 60px;
+  width: 60px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+#dark_mode_button:hover {
+  background-color: #F5F5F5;
+}
+
+#moon {
+  height: 25px;
+  width: 25px;
+}
+
+/* Homepage Sections Start */
+
+.hp_section {
+  text-align: center;
+  height: auto;
+  padding: 0px 10px 70px 10px;
+}
+
+/* Headers Containers */
+
+#header {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  padding: 20px;
+}
+
+#header_left {
+  width: 45%;
+  text-align: left;
+  padding: 0 0 0 30px;
+}
+
+#header_right {
+  width: 45%;
+  text-align: right;
+}
+
+.headline_sections {
+  text-align: center;
+  padding: 0 15px 0 15px;
+}
+
+/* Intro Containers */
+
+#intro {
+  height: auto;
+  min-height: 800px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+#hero {
+  padding: 0 150px 0 150px;
+}
+
+#hero_title {
+  font-size: 64px;
+
+}
+
+#hero_paragraph {
+  margin: 0 0 30px 0;
+}
+
+/* Guide Containers */
+
+#guides_container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  padding: 0 0 100px 0;
+}
+
+.guide_grid {
+  height: auto;
+  aspect-ratio: 1/1;
+  width: 20%;
+  margin: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-size: contain;
+  background-position: center;
+  border-radius: 10px;
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  -o-filter: brightness(100%);
+  -ms-filter: brightness(100%);
+  filter: brightness(100%);
+
+}
+
+.guide_grid:hover {
+  -webkit-filter: brightness(70%);
+  -moz-filter: brightness(70%);
+  -o-filter: brightness(70%);
+  -ms-filter: brightness(70%);
+  filter: brightness(70%);
+}
+
+
+#resource_1 {
+
+  background-image: url("https://i.scdn.co/image/ab6761610000e5eb870edc847976bcd06b56706a");
+}
+
+#resource_2 {
+  background-image: url("https://yesimadesigner.com/wp-content/uploads/2022/01/Design-Trends_blog.jpg");
+}
+
+#resource_3 {
+
+  background-image: url("https://expresswriters.com/wp-content/uploads/2019/08/content-marketing-statistics-500x500.jpg");
+}
+
+#resource_4 {
+
+  background-image: url("https://www.trustenablement.com/wp-content/uploads/2022/03/solutions-marketing.png");
+}
+
+#resource_5 {
+
+  background-image: url("https://i1.sndcdn.com/avatars-84kSchGhbOwde6cF-eACKvg-t500x500.jpg");
+}
+
+#resource_6 {
+
+  background-image: url("https://m.media-amazon.com/images/I/51s2pLuKTNL.jpg");
+}
+
+#resource_7 {
+
+  background-image: url("https://www.transformationmarketing.com/wp-content/uploads/2019/07/TM-How-Marketing-Supports-Sales-e1562947591404.png");
+}
+
+#resource_8 {
+
+  background-image: url("https://firespring.com/wp-content/uploads/2020/05/web-dev-landing-pages.png");
+}
+
+/* About Containers */
+
+#about {
+  background: black;
+  color: white;
+}
+
+#about_container {
+  min-height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.about_grid {
+
+  width: 50%;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+#about_left {
+  background-image: url("https://previews.123rf.com/images/filistimlyanin/filistimlyanin1906/filistimlyanin190600591/125185257-headshot-of-satisfied-cheerful-handsome-man-isolated-over-gray-background-people-positive-emotions-a.jpg");
+  min-height: 500px;
+}
+
+#about_right {
+  padding: 40px;
+}
+
+
+/* Social Containers */
+
+#social_container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.social_grid {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-size: contain;
+  background-position: center;
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  -o-filter: brightness(100%);
+  -ms-filter: brightness(100%);
+  filter: brightness(100%);
+}
+
+.social_grid:hover {
+  -webkit-filter: brightness(70%);
+  -moz-filter: brightness(70%);
+  -o-filter: brightness(70%);
+  -ms-filter: brightness(70%);
+  filter: brightness(70%);
+}
+
+#channel_1 {
+
+  background-image: url("https://img.icons8.com/fluency/512/instagram-new.png");
+}
+
+#channel_2 {
+
+  background-image: url("https://img.icons8.com/fluency/512/facebook.png");
+}
+
+#channel_3 {
+
+  background-image: url("https://img.icons8.com/fluency/512/twitter-squared.png");
+}
+
+#channel_4 {
+
+  background-image: url("https://img.icons8.com/fluency/512/linkedin.png");
+}
+
+#channel_5 {
+
+  background-image: url("https://img.icons8.com/fluency/512/tiktok.png");
+}
+
+#channel_6 {
+
+  background-image: url("https://img.icons8.com/fluency/512/youtube-play.png");
+}
+
+/* FAQ Containers */
+
+#FAQ {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+
+}
+
+.FAQ_list {
+  width: 75%;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+/*footer */
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: #000000;
+    display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  padding: 20px;
+  bottom: 0;
+  left: 0;
+}
+
+
+#footer_left {
+  width: 45%;
+  text-align: left;
+  padding: 0 0 0 30px;
+}
+
+#footer_right {
+  width: 45%;
+  text-align: right;
+}
+
+
+#demo {
+  display: inline-block;
+}
+
+/*pop-up */
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  text-align: center;
+  margin-top: 30px;
+  background-color: white;
+  color: black;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+#pop-image {
+  max-height 400px;
+  max-width: 80%;
+}
+
+/*Responsive*/
+
+
+@media screen and (max-width: 1000px) {
+  .about_grid {
+    width: 100%;
+  }
+
+  .guide_grid {
+    width: 32%;
+  }
+
+  #hero {
+    padding: 0 50px 0 50px;
+  }
+
+}
+
+@media screen and (max-width: 770px) {
+
+  #hero {
+    padding: 0 10px 0 10px;
+  }
+
+  .guide_grid {
+    width: 48%;
+  }
+
+  input[type="text"] {
+    width: 200px;
+  }
+
+  #email_capture_button {
+    width: 150px;
+
+  }
+
+}
+
+
+@media screen and (max-width: 520px) {
+
+  #hero {
+    padding: 0 10px 0 10px;
+  }
+
+  .guide_grid {
+    width: 45%;
+  }
+
+  #header_left {
+    width: 45%;
+  }
+
+  #header_right {
+    width: 45%;
+  }
+
+  #about_left {
+    min-height: 400px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 410px) {
+
+  #email_capture_button {
+    margin: 10px;
+
+  }
+
+  #header_left {
+    width: 42%;
+  }
+
+  #header_right {
+    width: 42%;
+  }
+
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
