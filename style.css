@@ -54,7 +54,6 @@ input[type="text"] {
   border-radius: 5px;
   border: none;
   color: white;
-  transition: 0.3s;
 }
 
 .email_capture_button:hover {
