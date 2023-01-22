@@ -45,7 +45,7 @@ input[type="text"] {
   border: solid;
 }
 
-#email_capture_button {
+.email_capture_button {
   height: 50px;
   width: 150px;
   padding: 10px;
@@ -54,52 +54,25 @@ input[type="text"] {
   border-radius: 5px;
   border: none;
   color: white;
+  transition: 0.3s;
 }
 
-#email_capture_button:hover {
+.email_capture_button:hover {
 
   background-color: #000080;
+      cursor: pointer;
 }
 
-
-/* Entire Site End */
-
-/* Dark Mode */
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-
-#dark_mode_button {
-  background-color: white;
-  height: 60px;
-  width: 60px;
-  padding: 5px 10px 5px 10px;
-  border-radius: 10px;
-  border: none;
-}
-
-#dark_mode_button:hover {
-  background-color: #F5F5F5;
-}
-
-#moon {
-  height: 25px;
-  width: 25px;
-}
 
 /* Homepage Sections Start */
 
 .hp_section {
   text-align: center;
-  height: auto;
-  padding: 0px 10px 70px 10px;
 }
 
 /* Headers Containers */
 
 #header {
-  height: 40px;
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
@@ -109,7 +82,7 @@ input[type="text"] {
 #header_left {
   width: 45%;
   text-align: left;
-  padding: 0 0 0 30px;
+  padding: 0 0 0 20px;
 }
 
 #header_right {
@@ -125,17 +98,19 @@ input[type="text"] {
 /* Intro Containers */
 
 #intro {
+    background-size: cover;
+    background-position: center;
   height: auto;
-  min-height: 800px;
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
   justify-content: center;
   align-content: center;
+  height: 100vh;
 }
 
 #hero {
-  padding: 0 150px 0 150px;
+  max-width: 800px;
 }
 
 #hero_title {
@@ -144,84 +119,9 @@ input[type="text"] {
 }
 
 #hero_paragraph {
-  margin: 0 0 30px 0;
+  padding: 0 10px 20px 10px;
 }
 
-/* Guide Containers */
-
-#guides_container {
-  display: flex;
-  flex-direction: row;
-  flex-flow: wrap;
-  justify-content: center;
-  padding: 0 0 100px 0;
-}
-
-.guide_grid {
-  height: auto;
-  aspect-ratio: 1/1;
-  width: 20%;
-  margin: 5px;
-  box-sizing: border-box;
-  overflow: hidden;
-  background-size: contain;
-  background-position: center;
-  border-radius: 10px;
-  -webkit-filter: brightness(100%);
-  -moz-filter: brightness(100%);
-  -o-filter: brightness(100%);
-  -ms-filter: brightness(100%);
-  filter: brightness(100%);
-
-}
-
-.guide_grid:hover {
-  -webkit-filter: brightness(70%);
-  -moz-filter: brightness(70%);
-  -o-filter: brightness(70%);
-  -ms-filter: brightness(70%);
-  filter: brightness(70%);
-}
-
-
-#resource_1 {
-
-  background-image: url("https://i.scdn.co/image/ab6761610000e5eb870edc847976bcd06b56706a");
-}
-
-#resource_2 {
-  background-image: url("https://yesimadesigner.com/wp-content/uploads/2022/01/Design-Trends_blog.jpg");
-}
-
-#resource_3 {
-
-  background-image: url("https://expresswriters.com/wp-content/uploads/2019/08/content-marketing-statistics-500x500.jpg");
-}
-
-#resource_4 {
-
-  background-image: url("https://www.trustenablement.com/wp-content/uploads/2022/03/solutions-marketing.png");
-}
-
-#resource_5 {
-
-  background-image: url("https://i1.sndcdn.com/avatars-84kSchGhbOwde6cF-eACKvg-t500x500.jpg");
-}
-
-#resource_6 {
-
-  background-image: url("https://m.media-amazon.com/images/I/51s2pLuKTNL.jpg");
-}
-
-#resource_7 {
-
-  background-image: url("https://www.transformationmarketing.com/wp-content/uploads/2019/07/TM-How-Marketing-Supports-Sales-e1562947591404.png");
-}
-
-#resource_8 {
-
-  background-image: url("https://firespring.com/wp-content/uploads/2020/05/web-dev-landing-pages.png");
-}
 
 /* About Containers */
 
@@ -231,7 +131,7 @@ input[type="text"] {
 }
 
 #about_container {
-  min-height: 500px;
+  min-height: 800px;
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
@@ -249,13 +149,46 @@ input[type="text"] {
 
 #about_left {
   background-image: url("https://previews.123rf.com/images/filistimlyanin/filistimlyanin1906/filistimlyanin190600591/125185257-headshot-of-satisfied-cheerful-handsome-man-isolated-over-gray-background-people-positive-emotions-a.jpg");
-  min-height: 500px;
+  min-height: 700px;
 }
 
 #about_right {
   padding: 40px;
 }
 
+#about_right_paragraph {
+  max-width: 1000px;
+}
+
+/* FAQ Containers */
+
+#FAQ {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+    padding: 0px 10px 70px 10px;
+
+}
+
+.FAQ_list {
+  width: 75%;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+/* footer */
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: #000000;
+  padding: 20px;
+  bottom: 0;
+  left: 0;
+}
 
 /* Social Containers */
 
@@ -267,8 +200,8 @@ input[type="text"] {
 }
 
 .social_grid {
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
   margin: 5px;
   box-sizing: border-box;
   overflow: hidden;
@@ -289,14 +222,15 @@ input[type="text"] {
   filter: brightness(70%);
 }
 
+
 #channel_1 {
 
-  background-image: url("https://img.icons8.com/fluency/512/instagram-new.png");
+  background-image: url("https://img.icons8.com/fluency/512/facebook.png");
 }
 
 #channel_2 {
 
-  background-image: url("https://img.icons8.com/fluency/512/facebook.png");
+  background-image: url("https://img.icons8.com/fluency/512/linkedin.png");
 }
 
 #channel_3 {
@@ -306,66 +240,22 @@ input[type="text"] {
 
 #channel_4 {
 
-  background-image: url("https://img.icons8.com/fluency/512/linkedin.png");
-}
-
-#channel_5 {
-
-  background-image: url("https://img.icons8.com/fluency/512/tiktok.png");
-}
-
-#channel_6 {
-
   background-image: url("https://img.icons8.com/fluency/512/youtube-play.png");
 }
 
-/* FAQ Containers */
 
-#FAQ {
-  display: flex;
-  flex-direction: row;
-  flex-flow: wrap;
-  justify-content: center;
-
-}
-
-.FAQ_list {
-  width: 75%;
-  box-sizing: border-box;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-}
-
-/*footer */
-
-footer {
-  color: white;
-  text-align: center;
-  background-color: #000000;
-    display: flex;
-  flex-direction: row;
-  flex-flow: wrap;
-  padding: 20px;
-  bottom: 0;
-  left: 0;
-}
-
-
-#footer_left {
-  width: 45%;
-  text-align: left;
-  padding: 0 0 0 30px;
-}
-
-#footer_right {
-  width: 45%;
-  text-align: right;
-}
-
+/* Copyright */
 
 #demo {
   display: inline-block;
+}
+
+.demo {
+  display: inline-block;
+}
+
+#copyright {
+  align-content: center;
 }
 
 /*pop-up */
@@ -385,7 +275,7 @@ footer {
 .overlay-content {
   position: relative;
   top: 25%;
-  left: 25%;
+  margin: auto;
   width: 50%;
   text-align: center;
   margin-top: 30px;
@@ -393,6 +283,7 @@ footer {
   color: black;
   padding: 40px;
   border-radius: 5px;
+  max-width: 800px;
 }
 
 .overlay a {
@@ -425,13 +316,20 @@ footer {
 
 
 @media screen and (max-width: 1000px) {
+  
   .about_grid {
     width: 100%;
   }
+  
+    #about_container {
+  min-height: 400px;
+}
 
-  .guide_grid {
-    width: 32%;
+  #about_left {
+    min-height: 400px;
+    max-height: 400px;
   }
+
 
   #hero {
     padding: 0 50px 0 50px;
@@ -444,11 +342,7 @@ footer {
   #hero {
     padding: 0 10px 0 10px;
   }
-
-  .guide_grid {
-    width: 48%;
-  }
-
+  
   input[type="text"] {
     width: 200px;
   }
@@ -457,6 +351,10 @@ footer {
     width: 150px;
 
   }
+  
+  .overlay-content {
+  width: 80%;
+}
 
 }
 
@@ -466,9 +364,9 @@ footer {
   #hero {
     padding: 0 10px 0 10px;
   }
-
-  .guide_grid {
-    width: 45%;
+  
+  #about {
+      min-height: 100vh;
   }
 
   #header_left {
@@ -479,17 +377,12 @@ footer {
     width: 45%;
   }
 
-  #about_left {
-    min-height: 400px;
-  }
-
-
 }
 
 
 @media screen and (max-width: 410px) {
 
-  #email_capture_button {
+  .email_capture_button {
     margin: 10px;
 
   }
@@ -514,4 +407,44 @@ footer {
     top: 15px;
     right: 35px;
   }
+}
+
+.animation {
+  height:70px;
+  overflow:hidden;
+  margin-left: 1rem;
+}
+
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height:2.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 12s infinite;
+}
+
+.first div {
+  color:#20a7d8;
+}
+.second div {
+  color:#CD921E;
+}
+.third div {
+  color:#c10528;
+}
+
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
 }
