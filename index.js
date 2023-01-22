@@ -1,10 +1,3 @@
-//Dark Mode
-https: //jsfiddle.net/mejwhasv/#
-  function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-  }
-
 // FAQ Expand/Collapse
 
 function toggleElement(id) {
