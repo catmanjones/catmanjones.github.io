@@ -12,12 +12,11 @@
   </head>
 
   <body>
-
     <div id="myNav" class="overlay">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
         <h2>
-          Get Your Ultimate Guide
+          Get Your FREE Marketing E-Book
         </h2>
 
         <img id="pop-image" src="https://www.flipbuilder.com/bookcase/images/sell_books_online.jpg">
@@ -28,7 +27,7 @@
 
         <label>
           <input type="text" placeholder="email required*">
-          <button id="email_capture_button">
+          <button class="email_capture_button">
             <b>GET STARTED</b>
           </button>
 
@@ -37,7 +36,6 @@
       </div>
     </div>
 
-
     <main>
       <div id="header">
         <div class="header_section" id="header_left">
@@ -45,41 +43,33 @@
 
         </div>
         <div class="header_section" id="header_right">
-          <button id="dark_mode_button" onclick="myFunction()"><img id="moon" src="https://img.icons8.com/ios-glyphs/512/moon-symbol.png"></button>
+          <button onclick="openNav()" button class="email_capture_button"><b>GET MY E-BOOK</b></button>
         </div>
       </div>
 
       <div class="hp_section" id="intro">
         <div id="hero">
-          <h1 id="hero_title">Marketing made <B>EASY</B>!</h1>
+          <h1 id="hero_title">Marketing Made
+            <section class="animation">
+              <div class="first">
+                <div>SMARTER</div>
+              </div>
+              <div class="second">
+                <div>EASIER</div>
+              </div>
+              <div class="third">
+                <div>BETTER</div>
+              </div>
+            </section>
+          </h1>
           <p id="hero_paragraph">Modern marketing doesn't need to be so hard. Supercharge your business by getting practical solutions to the latest trends in marketing. Mark Fleming's newsletter provides easy to follow best practices and masterclasses on how you and your business can maximize your marketing efforts. Get the newsletter today!</p>
+          <label>
+            <input type="text" placeholder="email required*">
+            <button class="email_capture_button">
+              <b>GET STARTED</b>
+            </button>
+          </label>
         </div>
-
-
-        <label>
-          <input type="text" placeholder="email required*">
-          <button id="email_capture_button">
-            <b>GET STARTED</b>
-          </button>
-
-        </label>
-      </div>
-
-      <div class="headline_sections">
-        <h2>Learn with the Ultimate Guide Series</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam malesuada, orci sed pretium gravida, tellus odio molestie odio, sit amet sagittis neque nunc non ligula. In faucibus interdum tellus ac ornare.
-        </p>
-      </div>
-      <div class="hp_section" id="guides_container">
-        <div class="guide_grid" id="resource_1" onclick="openNav()"></div>
-        <div class="guide_grid" id="resource_2"></div>
-        <div class="guide_grid" id="resource_3" onclick="openNav()"></div>
-        <div class="guide_grid" id="resource_4" onclick="openNav()"></div>
-        <div class="guide_grid" id="resource_5" onclick="openNav()"></div>
-        <div class="guide_grid" id="resource_6" onclick="openNav()"></div>
-        <div class="guide_grid" id="resource_7" onclick="openNav()"></div>
-        <div class="guide_grid" id="resource_8" onclick="openNav()"></div>
       </div>
 
       <div id="about">
@@ -87,15 +77,12 @@
           <div class="about_grid" id="about_left"></div>
           <div class="about_grid" id=about_right>
             <h2>About</h2>
-            <p>
+            <p id="about_right_paragraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam malesuada, orci sed pretium gravida, tellus odio molestie odio, sit amet sagittis neque nunc non ligula. In faucibus interdum tellus ac ornare. Praesent pharetra erat in placerat mattis. Maecenas non blandit risus, sed vehicula enim. In condimentum neque aliquet, dictum tortor quis, dictum lorem. Vestibulum vel tincidunt elit.
               <br><br>
               Etiam a felis suscipit, egestas est nec, laoreet odio. Ut ultrices, augue porta sollicitudin condimentum, ipsum lacus finibus turpis, vel hendrerit risus arcu eget dui. Aenean euismod diam ac tellus rutrum, eu egestas sem iaculis. Curabitur sagittis faucibus rutrum. In elementum, quam a convallis commodo, diam magna porta elit, nec congue elit mauris id orci.
             </p>
-
-            <a href="https://www.linkedin.com/in/markdfleming/"><button id="email_capture_button">
-                <b>LEARN MORE</b>
-              </button></a>
+            <button onclick="openNav()" button class="email_capture_button"><b>GET MY E-BOOK</b></button>
 
           </div>
         </div>
@@ -146,56 +133,53 @@
 
       </div>
     </main>
+
     <footer>
-            <div id="header_left">
-          <div class="headline_sections">
-        <h3>
-          Connect on social:
-        </h3>
-      </div>
-      <div class="hp_section" id="social_container">
-        <a href="https://www.instagram.com/markdfleming/">
-          <div class="social_grid" id="channel_1"></div>
-        </a>
-        <a href="https://www.facebook.com/markflemingblog">
-          <div class="social_grid" id="channel_2"></div>
-        </a>
-        <a href="https://twitter.com/markdfleming2">
-          <div class="social_grid" id="channel_3"></div>
-        </a>
-        <a href="https://www.linkedin.com/in/markdfleming">
-          <div class="social_grid" id="channel_4"></div>
-        </a>
-        <a href="">
-          <div class="social_grid" id="channel_5"></div>
-        </a>
-        <a href="https://www.youtube.com/channel/UCCu5vpJWy-a_Vj0rRjlPlpg">
-          <div class="social_grid" id="channel_6"></div>
-        </a>
-      </div>
+
+      <div id="footer_container">
+        <div id="footer_grid">
+          <div id="footer_left">
+            <div class="headline_sections">
+              <h3>
+                Connect on social:
+              </h3>
+            </div>
+            <div id="social_container">
+              <a href="https://www.facebook.com/markflemingblog">
+                <div class="social_grid" id="channel_1"></div>
+              </a>
+              <a href="https://www.linkedin.com/in/markdfleming">
+                <div class="social_grid" id="channel_2"></div>
+              </a>
+              <a href="https://twitter.com/markdfleming2">
+                <div class="social_grid" id="channel_3"></div>
+              </a>
+              <a href="https://www.youtube.com/channel/UCCu5vpJWy-a_Vj0rRjlPlpg">
+                <div class="social_grid" id="channel_4"></div>
+              </a>
+            </div>
+
+          </div>
+
 
         </div>
-        <div id="header_right">
-      <h2>
-        Never miss a newsletter!
-      </h2>
+      </div>
 
-      <label>
-        <input type="text" placeholder="email required*">
-        <button id="email_capture_button">
-          <b>SUBSCRIBE</b>
-        </button>
 
-      </label>
-        </div>
-        
-<div>
-©      <p id="demo"></p>
-      <p id="demo">
+
+
+
+
+
+
+
+      <div id="copyright">
+        © <p id="demo" class="demo"></p>
+        <p class="demo">
           Mark Fleming. All rights reserved.
-      </p>
+        </p>
 
-</div>
+      </div>
 
 
 
