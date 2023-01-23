@@ -1,11 +1,8 @@
-/* Entire Site Start */
-
 body {
   height: 100vh;
   font-family: "Helvetica";
   width: 100%;
-  margin: 0;
-
+  margin: 0
 }
 
 h1,
@@ -14,35 +11,35 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica";
+  font-family: "Helvetica"
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 32px
 }
 
 p {
-  font-size: 18px;
+  font-size: 18px
 }
 
 a {
-  color: #3F00FF;
+  color: #3F00FF
 }
 
 a:hover {
-  color: #000080;
+  color: navy
 }
 
 label {
-  position: relative;
+  position: relative
 }
 
-input[type="text"] {
+input[type="email"] {
   width: 350px;
   height: 50px;
-  padding: 0px 15px;
+  padding: 0 15px;
   border-radius: 5px;
-  border: solid;
+  border: solid
 }
 
 .email_capture_button {
@@ -53,49 +50,41 @@ input[type="text"] {
   font-size: 16px;
   border-radius: 5px;
   border: none;
-  color: white;
-    transition: 0.3s;
+  color: #fff;
+  transition: .3s
 }
 
 .email_capture_button:hover {
-
-  background-color: #000080;
-  cursor: pointer;
+  background-color: navy;
+  cursor: pointer
 }
-
-
-/* Homepage Sections Start */
 
 .hp_section {
-  text-align: center;
+  text-align: center
 }
-
-/* Headers Containers */
 
 #header {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
-  padding: 20px;
+  padding: 20px
 }
 
 #header_left {
   width: 45%;
   text-align: left;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 20px
 }
 
 #header_right {
   width: 45%;
-  text-align: right;
+  text-align: right
 }
 
 .headline_sections {
   text-align: center;
-  padding: 0 15px 0 15px;
+  padding: 0 15px
 }
-
-/* Intro Containers */
 
 #intro {
   background-size: cover;
@@ -106,101 +95,95 @@ input[type="text"] {
   flex-flow: wrap;
   justify-content: center;
   align-content: center;
-  height: 90vh;
+  height: 90vh
 }
 
 #hero {
-  max-width: 800px;
+  max-width: 800px
 }
 
 #hero_title {
-  font-size: 64px;
-
+  font-size: 64px
 }
 
 #hero_paragraph {
-  padding: 0 10px 20px 10px;
+  padding: 0 10px 20px
 }
-
 
 .animation {
   height: 70px;
   overflow: hidden;
-  margin-left: 1rem;
+  margin-left: 1rem
 }
 
 .animation>div>div {
-  padding: 0.25rem 0.75rem;
+  padding: .25rem .75rem;
   height: 2.81rem;
   margin-bottom: 2.81rem;
-  display: inline-block;
+  display: inline-block
 }
 
 .animation div:first-child {
-  animation: text-animation 12s infinite;
+  animation: text-animation 12s infinite
 }
 
 .first div {
-  color: #20a7d8;
+  color: #20a7d8
 }
 
 .second div {
-  color: #CD921E;
+  color: #CD921E
 }
 
 .third div {
-  color: #c10528;
+  color: #c10528
 }
 
 @keyframes text-animation {
   0% {
-    margin-top: 0;
+    margin-top: 0
   }
 
   10% {
-    margin-top: 0;
+    margin-top: 0
   }
 
   20% {
-    margin-top: -5.62rem;
+    margin-top: -5.62rem
   }
 
   30% {
-    margin-top: -5.62rem;
+    margin-top: -5.62rem
   }
 
   40% {
-    margin-top: -11.24rem;
+    margin-top: -11.24rem
   }
 
   60% {
-    margin-top: -11.24rem;
+    margin-top: -11.24rem
   }
 
   70% {
-    margin-top: -5.62rem;
+    margin-top: -5.62rem
   }
 
   80% {
-    margin-top: -5.62rem;
+    margin-top: -5.62rem
   }
 
   90% {
-    margin-top: 0;
+    margin-top: 0
   }
 
   100% {
-    margin-top: 0;
+    margin-top: 0
   }
 }
 
-
-
-/* About Containers */
-
 #about {
-  background: black;
-  color: white;
+  background: #000;
+  color: #fff
 }
 
 #about_container {
@@ -208,40 +191,36 @@ input[type="text"] {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
-  justify-content: center;
+  justify-content: center
 }
 
 .about_grid {
-
   width: 50%;
   box-sizing: border-box;
   overflow: hidden;
   background-size: cover;
-  background-position: center;
+  background-position: center
 }
 
 #about_left {
-  background-image: url("https://previews.123rf.com/images/filistimlyanin/filistimlyanin1906/filistimlyanin190600591/125185257-headshot-of-satisfied-cheerful-handsome-man-isolated-over-gray-background-people-positive-emotions-a.jpg");
-  min-height: 700px;
+  background-image: url(https://previews.123rf.com/images/filistimlyanin/filistimlyanin1906/filistimlyanin190600591/125185257-headshot-of-satisfied-cheerful-handsome-man-isolated-over-gray-background-people-positive-emotions-a.jpg);
+  min-height: 700px
 }
 
 #about_right {
-  padding: 40px;
+  padding: 40px
 }
 
 #about_right_paragraph {
-  max-width: 1000px;
+  max-width: 1000px
 }
-
-/* FAQ Containers */
 
 #FAQ {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
   justify-content: center;
-  padding: 0px 10px 70px 10px;
-
+  padding: 0 10px 70px
 }
 
 .FAQ_list {
@@ -249,27 +228,23 @@ input[type="text"] {
   box-sizing: border-box;
   overflow: hidden;
   background-size: cover;
-  background-position: center;
+  background-position: center
 }
-
-/* footer */
 
 footer {
-  color: white;
+  color: #fff;
   text-align: center;
-  background-color: #000000;
+  background-color: #000;
   padding: 20px;
   bottom: 0;
-  left: 0;
+  left: 0
 }
-
-/* Social Containers */
 
 #social_container {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
-  justify-content: center;
+  justify-content: center
 }
 
 .social_grid {
@@ -284,7 +259,7 @@ footer {
   -moz-filter: brightness(100%);
   -o-filter: brightness(100%);
   -ms-filter: brightness(100%);
-  filter: brightness(100%);
+  filter: brightness(100%)
 }
 
 .social_grid:hover {
@@ -292,46 +267,36 @@ footer {
   -moz-filter: brightness(70%);
   -o-filter: brightness(70%);
   -ms-filter: brightness(70%);
-  filter: brightness(70%);
+  filter: brightness(70%)
 }
 
-
 #channel_1 {
-
-  background-image: url("https://img.icons8.com/fluency/512/facebook.png");
+  background-image: url(https://img.icons8.com/fluency/512/facebook.png)
 }
 
 #channel_2 {
-
-  background-image: url("https://img.icons8.com/fluency/512/linkedin.png");
+  background-image: url(https://img.icons8.com/fluency/512/linkedin.png)
 }
 
 #channel_3 {
-
-  background-image: url("https://img.icons8.com/fluency/512/twitter-squared.png");
+  background-image: url(https://img.icons8.com/fluency/512/twitter-squared.png)
 }
 
 #channel_4 {
-
-  background-image: url("https://img.icons8.com/fluency/512/youtube-play.png");
+  background-image: url(https://img.icons8.com/fluency/512/youtube-play.png)
 }
 
-
-/* Copyright */
-
 #demo {
-  display: inline-block;
+  display: inline-block
 }
 
 .demo {
-  display: inline-block;
+  display: inline-block
 }
 
 #copyright {
-  align-content: center;
+  align-content: center
 }
-
-/*pop-up */
 
 .overlay {
   height: 100%;
@@ -340,9 +305,9 @@ footer {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(0, 0, 0);
+  background-color: #000;
   background-color: rgba(0, 0, 0, 0.9);
-  overflow-x: hidden;
+  overflow-x: hidden
 }
 
 .overlay-content {
@@ -352,11 +317,11 @@ footer {
   width: 50%;
   text-align: center;
   margin-top: 30px;
-  background-color: white;
-  color: black;
+  background-color: #fff;
+  color: #000;
   padding: 40px;
   border-radius: 5px;
-  max-width: 800px;
+  max-width: 800px
 }
 
 .overlay a {
@@ -365,122 +330,69 @@ footer {
   font-size: 36px;
   color: #818181;
   display: block;
-  transition: 0.3s;
+  transition: .3s
 }
 
 .overlay a:hover,
 .overlay a:focus {
-  color: #f1f1f1;
+  color: #f1f1f1
 }
 
 .overlay .closebtn {
   position: absolute;
   top: 20px;
   right: 45px;
-  font-size: 60px;
+  font-size: 60px
 }
 
 #pop-image {
-  max-height 400px;
-  max-width: 80%;
+  max-width: 80%
 }
 
-/*Responsive*/
-
-
 @media screen and (max-width: 1000px) {
-
   .about_grid {
-    width: 100%;
+    width: 100%
   }
 
   #about_container {
-    min-height: 400px;
+    min-height: 400px
   }
 
   #about_left {
     min-height: 400px;
-    max-height: 400px;
+    max-height: 400px
   }
-
-
-  #hero {
-    padding: 0 50px 0 50px;
+  
+    .overlay-content {
+    width: 80%
   }
-
 }
 
 @media screen and (max-width: 770px) {
-
   #hero {
-    padding: 0 10px 0 10px;
+    padding: 0 10px
   }
 
-  input[type="text"] {
-    width: 200px;
-  }
-
-  #email_capture_button {
-    width: 150px;
-
-  }
-
-  .overlay-content {
-    width: 80%;
-  }
-
-}
-
-
-@media screen and (max-width: 520px) {
-
-  #hero {
-    padding: 0 10px 0 10px;
-  }
-
-  #about {
-    min-height: 100vh;
+  .email_capture_button {
+    margin: 10px
   }
 
   #header_left {
-    width: 45%;
+    width: 45%
   }
 
   #header_right {
-    width: 45%;
+    width: 45%
   }
-
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {
+    .overlay a {
     font-size: 20px
   }
 
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
-    right: 35px;
+    right: 35px
   }
-
-  .email_capture_button {
-    width: 125px;
-  }
-}
-
-@media screen and (max-width: 410px) {
-
-  .email_capture_button {
-    margin: 10px;
-
-  }
-
-  #header_left {
-    width: 42%;
-  }
-
-  #header_right {
-    width: 42%;
-  }
+  
 
 }
