@@ -396,3 +396,13 @@ footer {
   
 
 }
+
+@media screen and (max-width: 400px) {
+input[type="email"] {
+  width: 80%;
+  height: 50px;
+
+}
+  
+
+}
