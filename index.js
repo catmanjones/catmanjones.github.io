@@ -8,12 +8,6 @@ function toggleElement(id) {
   }
 }
 
-// year
-
-const d = new Date();
-let year = d.getFullYear();
-document.getElementById("demo").innerHTML = year;
-
 // full page pop-up
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
@@ -22,3 +16,4 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
+
