@@ -9,42 +9,45 @@
     <link rel="stylesheet" href="./style.css">
     <script src="index.js"></script>
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  
   </head>
 
   <body>
     <div id="myNav" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <h2>
           Get Your FREE Marketing E-Book
         </h2>
 
-        <img id="pop-image" src="https://www.flipbuilder.com/bookcase/images/sell_books_online.jpg">
+        <img id="pop-image" src="https://www.apple.com/newsroom/images/product/os/ios/standard/Apple_iPhone12Pro-iOS15-3up_060721_big.jpg.large_2x.jpg">
 
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam malesuada, orci sed pretium gravida, tellus odio molestie odio, sit amet sagittis neque nunc non ligula. In faucibus interdum tellus ac ornare. Praesent pharetra erat in placerat mattis. Maecenas non blandit risus, sed vehicula enim. In condimentum neque aliquet, dictum tortor quis, dictum lorem. Vestibulum vel tincidunt elit.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam malesuada, orci sed pretium gravida, tellus odio molestie odio, sit amet sagittis neque nunc non ligula. In faucibus interdum tellus ac ornare.
         </p>
 
-        <!-- Begin Mailchimp Signup Form -->
-        <form action="https://markdfleming.us10.list-manage.com/subscribe/post?u=a0d5f9202c3e0175330487440&amp;id=f0a6413e1e&amp;f_id=008bcbe5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
-          <input type="email" value="" name="EMAIL" class="required email" placeholder="email required*" id="email" required>
-          <div hidden="true"><input type="hidden" name="tags" value="14151604,376101"></div>
-          <input type="submit" value="GET E-BOOK" name="GET FREE E-BOOK" id="mc-embedded-subscribe" class="email_capture_button">
-        </form>
+        <label>
+          <input type="text" placeholder="email required*">
+          <button>
+            <b>GET STARTED</b>
+          </button>
 
-        <!--End mc_embed_signup-->
-
+        </label>
       </div>
     </div>
 
     <main>
       <div id="header">
-        <div class="header_section" id="header_left">
-          <img src="https://markdfleming.com/logo.png" alt="Mark Fleming logo">
+        <div id="header_left">
+          <a href="https://markdfleming.com/">
+            <img id="logo" src="https://markdfleming.com/logo.png" alt="Mark Fleming logo">
+          </a>
 
         </div>
-        <div class="header_section" id="header_right">
-          <button onclick="openNav()" button class="email_capture_button">GET MY E-BOOK</button>
+        <div id="header_right">
+          <button onclick="openNav()"><b>GET STARTED</b></button>
         </div>
       </div>
 
@@ -63,14 +66,18 @@
               </div>
             </section>
           </h1>
-          <p id="hero_paragraph">Want to dominate your marketing game? My <b>FREE</b> newsletter has everything you need to drive your business to the next level. Tips for building and improving your funnels. Insider secrets. Practical tips you won't find anywhere else. Don't miss out. Unlock your marketing potential today!</p>
-          <form action="https://markdfleming.us10.list-manage.com/subscribe/post?u=a0d5f9202c3e0175330487440&amp;id=f0a6413e1e&amp;f_id=008bcbe5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
-            <input type="email" value="" name="EMAIL" class="required email" placeholder="email required*" id="email" required>
-
-            <div hidden="true"><input type="hidden" name="tags" value="376101"></div>
-            <input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="email_capture_button">
-          </form>
-
+          <p id="hero_paragraph">Want to dominate your marketing game? My FREE newsletter has everything you need to drive your business to the next level. Unlock your marketing potential today!</p>
+<p id="hero_paragraph_bullets">
+<b>&#128293; Tips for generating more sales and leads</b> <br><br>
+<b>&#x2714; Industry secrets and insights</b> <br><br>
+<b>&#x2714; Best practices for improving your funnel</b> <br><br>
+</p>
+          <label>
+            <input type="text" placeholder="email required*">
+            <button>
+              <b>LET'S GO &#8594;</b>
+            </button>
+          </label>
         </div>
       </div>
 
@@ -78,60 +85,55 @@
         <div id="about_container">
           <div class="about_grid" id="about_left"></div>
           <div class="about_grid" id=about_right>
-            <h2>About</h2>
+            <h2>Who is Mark Fleming?</h2>
             <p id="about_right_paragraph">
               Meet Mark Fleming, a Chicago-based marketer who specializes in building highly effective marketing systems. Mark is a business leader with a specialty in direct marketing, data-driven projects, and marketing opertations. He has proven track record of success in the financial and legal industries, working on both B2C and B2B projects.Mark currently serves as the the Director of Marketing at Market Rebellion, and he holds a MBA from the University of Illinois-Urbana-Champaign.
               <br><br>
               As a writer, Mark focuses on creating no-nonsense content to help entrepreneurs grow their business. I mean, why work harder, when you can work smarter, right? To get started, check out Mark's FREE E-Book: "The Starter Guide to Marketing Smart." It's packed with actionable tips that will change the way you think about your marketing efforts. Don't miss out -- download now!
             </p>
-            <button onclick="openNav()" button class="email_capture_button">GET MY E-BOOK</button>
+            <button onclick="openNav()"><b>GET MY E-BOOK</b></button>
 
           </div>
         </div>
-
-
-
-
-
       </div>
-
-      <div class="headline_sections">
-        <h2>
-          FAQs
-        </h2>
-      </div>
-
-      <div class="hp_section" id="FAQ">
-        <div class="FAQ_list">
-          <p>
-            <a href="javascript:toggleElement('a1')">How do I contact Mark Fleming?
-            </a>
-          </p>
-
-          <div id="a1" style="display:none">
-            This is an answer.
-          </div>
+      <div id="FAQ_headline_section">
+        <div class="headline_sections">
+          <h2>
+            FAQs
+          </h2>
         </div>
 
-        <div class="FAQ_list">
-          <p>
-            <a href="javascript:toggleElement('a2')">What kind of marketing does Mark Fleming do?
-            </a>
-          </p>
-          <div id="a2" style="display:none">
-            This is an answer.
+        <div class="hp_section" id="FAQ">
+          <div class="FAQ_list">
+            <p>
+              <a href="javascript:toggleElement('a1')">How do I contact Mark Fleming?
+              </a>
+            </p>
+
+            <div id="a1" class="FAQ_answer" style="display:none">
+                 As a writer, Mark focuses on creating no-nonsense content to help entrepreneurs grow their business. I mean, why work harder, when you can work smarter, right? To get started, check out Mark's FREE E-Book: "The Starter Guide to Marketing Smart." It's packed with actionable tips that will change the way you think about your marketing efforts. Don't miss out -- download now!
+            </div>
+          </div>
+
+          <div class="FAQ_list">
+            <p>
+              <a href="javascript:toggleElement('a2')">What kind of marketing does Mark Fleming do?
+              </a>
+            </p>
+            <div id="a2" class="FAQ_answer" style="display:none">
+              This is an answer.
+            </div>
+          </div>
+
+          <div class="FAQ_list">
+            <p>
+              <a href="javascript:toggleElement('a3')">How do I get more content from Mark Fleming?</a>
+            </p>
+            <div id="a3" class="FAQ_answer" style="display:none">
+              This is an answer.
+            </div>
           </div>
         </div>
-
-        <div class="FAQ_list">
-          <p>
-            <a href="javascript:toggleElement('a3')">How do I get more content from Mark Fleming?</a>
-          </p>
-          <div id="a3" style="display:none">
-            This is an answer.
-          </div>
-        </div>
-
 
       </div>
     </main>
@@ -162,29 +164,12 @@
             </div>
 
           </div>
-
-
         </div>
       </div>
-
-
-
-
-
-
-
-
-
       <div id="copyright">
-        © <p id="demo" class="demo"></p>
-        <p class="demo">
-          Mark Fleming. All rights reserved.
+        <p> © <script>document.write(new Date().getFullYear())</script> Mark Fleming. All rights reserved.
         </p>
-
       </div>
-
-
-
     </footer>
   </body>
 
