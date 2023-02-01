@@ -5,6 +5,8 @@ body {
   font-family: "Helvetica";
   width: 100%;
   margin: 0;
+    top: 0;
+  left: 0;
 
 }
 
@@ -109,7 +111,7 @@ button:hover {
   flex-flow: wrap;
   justify-content: center;
   align-content: center;
-  height: 85vh;
+  height: 80vh;
   }
 
 #hero {
@@ -368,10 +370,10 @@ footer {
   position: relative;
   margin: auto;
   width: 80%;
-  height: 90vh;
+  height: 80vh;
+  padding-top: 80px;
   text-align: center;
   background-color: #F0F0F0;
-  padding-top: 25%;
   max-width: 1000px;
 }
 
@@ -468,6 +470,10 @@ footer {
     margin-right: 0;
   }
 
+.overlay-content {
+  padding-top: 25%;
+}
+
   .overlay a {
     font-size: 20px
   }
@@ -479,4 +485,3 @@ footer {
   }
 
 }
-
