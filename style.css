@@ -28,7 +28,7 @@ p {
 }
 
 a {
-  color: #3F00FF;
+  color: #256EFF;
 }
 
 a:hover {
@@ -53,7 +53,7 @@ button {
   height: 50px;
   width: 150px;
   padding: 10px;
-  background-color: #3F00FF;
+  background-color: #256EFF;
   font-size: 16px;
   border-radius: 5px;
   border: none;
@@ -112,6 +112,9 @@ button:hover {
   justify-content: center;
   align-content: center;
   height: 80vh;
+  .your-class{
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%230099ff' fill-opacity='1' d='M0 288L48 272C96 256 192 224 288 197.3C384 171 480 149 576 165.3C672 181 768 235 864 250.7C960 267 1056 245 1152 250.7C1248 256 1344 288 1392 304L1440 320L1440 320L1392 320C1344 320 1248 320 1152 320C1056 320 960 320 864 320C768 320 672 320 576 320C480 320 384 320 288 320C192 320 96 320 48 320L0 320Z'%3E%3C/path%3E%3C/svg%3E");
+}
   }
 
 #hero {
@@ -271,7 +274,7 @@ button:hover {
 }
 
 .FAQ_answer {
-  padding: 10px;
+  padding: 30px;
 }
 
 /* footer */
@@ -408,14 +411,16 @@ footer {
   }
 
   #header_left {
-    width: 45%;
-    text-align: left;
+    width: 42%;
+    margin-left: 0;
+        text-align: left;
     padding: 0 0 0 20px;
   }
 
   #header_right {
-    width: 45%;
-    text-align: right;
+    width: 42%;
+    margin-right: 0;
+        text-align: right;
   }
 
   .about_grid {
@@ -452,36 +457,12 @@ footer {
 
 @media screen and (max-width: 480px) {
 
-  #hero {
-    padding: 0 10px 0 10px;
-  }
-
 #hero_paragraph_bullets {
  display: none; 
 }
 
-  #header_left {
-    width: 42%;
-    margin-left: 0;
-  }
-
-  #header_right {
-    width: 42%;
-    margin-right: 0;
-  }
-
 .overlay-content {
   padding-top: 25%;
 }
-
-  .overlay a {
-    font-size: 20px
-  }
-
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
 
 }
