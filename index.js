@@ -7,13 +7,3 @@ function toggleElement(id) {
     document.getElementById(id).style.display = 'none';
   }
 }
-
-// full page pop-up
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-
